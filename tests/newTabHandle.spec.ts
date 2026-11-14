@@ -30,6 +30,7 @@ test("New window handle", async({browser}) =>{
         newTabLocator.click()
     ])
 
+    console.log(context.pages().length);
     await page.waitForTimeout(2000)
     console.log(await newTab.title());
 
