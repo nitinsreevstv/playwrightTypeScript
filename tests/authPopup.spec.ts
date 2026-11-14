@@ -12,7 +12,6 @@ test("Auth popup", async({browser}) =>{
         }
     })
     const page = await context.newPage()
-
     await page.goto(URL)
     await expect(page.locator("text=Congratulations")).toBeVisible()
 

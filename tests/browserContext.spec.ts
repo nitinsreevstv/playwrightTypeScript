@@ -18,7 +18,7 @@ test("Running browser in dark theme", async({browser}) =>{
         permissions: [
             "geolocation",
             "notifications",
-            "camera",
+            // "camera",
             "microphone"
         ],
         locale: "en-US",
